@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive;
+}
+body{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  background: #00CED1;
+}
+.text {
+  position: relative;
+  display: block;
+  background: #D3D3D3;
+  padding: 70px 70px;
+}
+.text h1{
+  font-size: 60px;
+  color: #303a43;
+  font-family: 'Caveat', cursive;
+}
+.text h2{
+  font-size: 32px;
+  color: white;
+}
+.text .countdown_timer{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.countdown_timer .timer{
+  padding: 20px;
+  margin: 20px;
+  background: #9370DB;
+  box-shadow: 2px 2px 120px #d5c5c6, 2px 2px 120px #d5c5c6;
+  border: 3px solid white;
+  border-radius: 8px;
+  min-width: 100px;
+}
+.timer p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
